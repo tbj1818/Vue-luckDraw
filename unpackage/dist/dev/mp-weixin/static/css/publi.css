@@ -1,0 +1,38 @@
+
+*{margin:0;padding:0;font-family:'microsoft yahei', Arial;}
+body{background:#c4273a url(@/static/images/bg.jpg);width:100%;height:auto;background-repeat:no-repeat;background-size:100% auto;-webkit-background-size:100% auto;}
+.main{width:100%;margin-top:40px;padding-bottom:10%;}
+.logo{width:80%;margin:30px auto;}
+.logo img{width:100%;margin:0 auto;}
+.activity-amin{width:94%;margin:0 auto;}
+.activity-amin2{width:88%;margin:0 auto;}
+a.a-main2{display:block;color:#d6384c;margin:0 auto;width:100%;padding:10px 0;text-align:center;font-size:1rem;border-radius:10px;letter-spacing:2px;background-color:#feb934;text-decoration:none;font-weight:700;}
+.wt1{width:94%;display:block;border:none;background-color:#FFF;padding:5% 3%;border-radius:.34666667rem;font-size:.9rem;margin-bottom:6%;}
+.wt2{width:50%;float:left;}
+.wt3{width:40%;float:right;background-color:#efc84d;color:#FFF;}
+.wt4{width:100%;background-color:#fc8209;line-height:24px;color:#FFF;font-size:34upx;text-align:center;}
+.prompt1{clear:both;width:100%;text-align:center;font-size:.4rem;margin-bottom:6%;color:#ffe66f;display:non;}
+.text-main{width:88%;margin:0 auto;}
+.text-main h1{text-align:center;font-size:14px;margin-bottom:3%;color:#FFF;}
+.text-main p{color:#FFF;font-size:12px;line-height:30px;}
+.text-main img{width:100%;padding:5px 0;}
+.phoneinput{color:#333;background:#FFF;line-height:50px;height:50px;padding-left:10px;border-radius:10px;margin-bottom:20px;font-size:12px;}
+/*中奖提示*/
+.blin{width:100%;height:100%;background:url(@/static/images/gold.png) no-repeat center center;-o-animation:circle 10s linear infinite;-ms-animation:circle 10s linear infinite;-moz-animation:circle 10s linear infinite;-webkit-animation:circle 10s linear infinite;animation:circle 10s linear infinite;background-size:contain;}
+
+@keyframes circle {
+  0% {
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
