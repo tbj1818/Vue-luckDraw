@@ -20,6 +20,12 @@
 			"style": {
 				"navigationBarTitleText": "中奖历史"
 			}
+		},
+		{
+			"path": "pages/index/egg",
+			"style": {
+				"navigationBarTitleText": "砸金蛋"
+			}
 		}
 	],
 	"globalStyle": {

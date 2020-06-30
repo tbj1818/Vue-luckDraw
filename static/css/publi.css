@@ -1,6 +1,6 @@
 
 *{margin:0;padding:0;font-family:'microsoft yahei', Arial;}
-body{background:#c4273a url(@/static/images/bg.jpg);width:100%;height:auto;background-repeat:no-repeat;background-size:100% auto;-webkit-background-size:100% auto;}
+body{background:#c4273a url(@/static/images/bg.jpg);width:100%;height:100%;background-repeat:no-repeat;background-size:100% auto;-webkit-background-size:100% auto;}
 .main{width:100%;margin-top:40px;padding-bottom:10%;}
 .logo{width:80%;margin:30px auto;}
 .logo img{width:100%;margin:0 auto;}
@@ -16,7 +16,7 @@ a.a-main2{display:block;color:#d6384c;margin:0 auto;width:100%;padding:10px 0;te
 .text-main h1{text-align:center;font-size:14px;margin-bottom:3%;color:#FFF;}
 .text-main p{color:#FFF;font-size:12px;line-height:30px;}
 .text-main img{width:100%;padding:5px 0;}
-.phoneinput{color:#333;background:#FFF;line-height:50px;height:50px;padding-left:10px;border-radius:10px;margin-bottom:20px;font-size:12px;}
+.phoneinput{color:#333;background:#FFF;line-height:50px;height:50px;padding-left:10px;border-radius:10px;margin-bottom:20px;font-size:30upx;}
 /*中奖提示*/
 .blin{width:100%;height:100%;background:url(@/static/images/gold.png) no-repeat center center;-o-animation:circle 10s linear infinite;-ms-animation:circle 10s linear infinite;-moz-animation:circle 10s linear infinite;-webkit-animation:circle 10s linear infinite;animation:circle 10s linear infinite;background-size:contain;}
 
@@ -36,3 +36,4 @@ a.a-main2{display:block;color:#d6384c;margin:0 auto;width:100%;padding:10px 0;te
     transform: rotate(360deg);
   }
 }
+uni-page-body{height: 100%;}

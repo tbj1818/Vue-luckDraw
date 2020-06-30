@@ -1,6 +1,8 @@
 <template>
 	<div class="lottery-box" id="app">
-		<h1 class="title">九宫格抽奖</h1>
+		<image class="w100img" src="../../static/images/1.png"></image>
+		<!-- <h1 class="title">九宫格抽奖</h1> -->
+		
 		<div class="lottery">
 			<div class="lottery-item">
 				<div class="lottery-start">
@@ -80,6 +82,7 @@
 					}
 				], //奖品1-9     
 				index: -1, // 当前转动到哪个位置，起点位置
+				drawnum:2,
 				count: 8, // 总共有多少个位置
 				timer: 0, // 每次转动定时器
 				speed: 200, // 初始转动速度
@@ -92,10 +95,21 @@
 		},
 		methods: {
 			startLottery() {
-				if (!this.click) {
+				console.log(this.drawnum)
+				if(this.drawnum>0){
+					if (!this.click) {
+						return
+					}
+					this.startRoll();
+				}else{
+					uni.showToast({
+						title: '剩余次数不足',
+						icon: 'none',
+						duration: 2000
+					});
 					return
 				}
-				this.startRoll();
+				this.drawnum--
 			},
 			// 开始转动
 			startRoll() {

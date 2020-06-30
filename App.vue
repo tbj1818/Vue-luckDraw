@@ -16,4 +16,5 @@
 	/*每个页面公共css */
 	@import './static/css/publi.css';
 	@import './static/css/vue.css';
+	@import './static/css/egg.css';
 </style>

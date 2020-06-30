@@ -63,7 +63,7 @@
 					});
 				} else {
 					uni.navigateTo({
-						url: '/pages/index/draw'
+						url: '/pages/index/egg'
 					});
 					// this.successdialog=true
 					// this.prize='iphone12一部'

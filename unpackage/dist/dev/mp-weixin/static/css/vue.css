@@ -198,8 +198,9 @@ background-image:url(@/static/images/k2.png);
     background: linear-gradient(180deg, rgba(213,60,63,1) 0%, rgba(201,20,24,1) 100%);
     font-size: 16px;
 }
-.history{width:100px; margin: 20px auto; border-radius:10px; text-align: center; color: #FFF; font-size:16px; font-weight: bold; background:orange; line-height: 50px;}
+.history{width:150px; margin:10px auto; border-radius:10px; text-align: center; color: #FFF; font-size:16px; font-weight: bold; background:orange; line-height: 50px;}
 
 .drawhistory{width: 100%; margin: 20px auto;}
 .drawhistory li{width: 90%; margin: 10px auto; line-height: 30px; display: flex; color: #FFF;}
 .drawhistory li span{flex: 1;}
+.w100img{width: 100%;}
